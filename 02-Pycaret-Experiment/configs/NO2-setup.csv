@@ -1,0 +1,20 @@
+Description,Value
+Session id,123
+Target,NO2
+Target type,Regression
+Original data shape,"(353, 11)"
+Transformed data shape,"(353, 11)"
+Transformed train set shape,"(282, 11)"
+Transformed test set shape,"(71, 11)"
+Numeric features,10
+Preprocess,True
+Imputation type,simple
+Numeric imputation,mean
+Categorical imputation,mode
+Fold Generator,KFold
+Fold Number,10
+CPU Jobs,-1
+Use GPU,False
+Log Experiment,False
+Experiment Name,reg-default-name
+USI,7c79

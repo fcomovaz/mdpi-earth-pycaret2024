@@ -1,0 +1,20 @@
+Description,Value
+Session id,123
+Target,O3
+Target type,Regression
+Original data shape,"(1813, 9)"
+Transformed data shape,"(1813, 9)"
+Transformed train set shape,"(1450, 9)"
+Transformed test set shape,"(363, 9)"
+Numeric features,8
+Preprocess,True
+Imputation type,simple
+Numeric imputation,mean
+Categorical imputation,mode
+Fold Generator,KFold
+Fold Number,10
+CPU Jobs,-1
+Use GPU,False
+Log Experiment,False
+Experiment Name,reg-default-name
+USI,e3fd

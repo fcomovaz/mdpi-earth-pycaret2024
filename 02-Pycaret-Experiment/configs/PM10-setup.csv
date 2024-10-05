@@ -1,0 +1,20 @@
+Description,Value
+Session id,123
+Target,PM10
+Target type,Regression
+Original data shape,"(3646, 11)"
+Transformed data shape,"(3646, 11)"
+Transformed train set shape,"(2917, 11)"
+Transformed test set shape,"(729, 11)"
+Numeric features,10
+Preprocess,True
+Imputation type,simple
+Numeric imputation,mean
+Categorical imputation,mode
+Fold Generator,KFold
+Fold Number,10
+CPU Jobs,-1
+Use GPU,False
+Log Experiment,False
+Experiment Name,reg-default-name
+USI,1a64
